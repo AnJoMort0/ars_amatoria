@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>7A4B9097-E1AA-4F32-BF6E-3453C16B6BFB</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Ars Amatoria v.1</title>
+            <author>André AnJoMorto F.</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2024</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2024-02-03</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2024-02-03</originated>
+        </colophon>
+        <glulx>
+            <serial>240203</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>
