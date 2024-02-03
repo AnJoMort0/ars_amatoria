@@ -24,7 +24,7 @@ Instead of waiting:
 		As I look back at the corridor, the girl is not there anymore. I've lost my chance...";
     end the story finally saying "I got to be quicker, noted, time to go back.";
 
-[This make the room description stop working]
+[This is making the room description stop working]
 Instead of looking in the Exam Room:
     say "The exam room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door.";
 

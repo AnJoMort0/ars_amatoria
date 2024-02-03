@@ -15,8 +15,8 @@ The exam room is chaotic as students rush out, relieved that the ordeal is over.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
-            <child nodeId="node-1015"></child>
+        <children><child nodeId="node-1028"></child>
+            <child nodeId="node-1012"></child>
             <child nodeId="node-1005"></child>
             <child nodeId="node-1003"></child>
         </children>
@@ -119,9 +119,37 @@ I stumble one more time out of the final exam, the weight of textbooks finally o
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1012">
         <command xml:space="preserve">sleep</command>
         <result xml:space="preserve">You aren't feeling especially drowsy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">eat</command>
+        <result xml:space="preserve">(yourself)
+You're plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">say</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">cry</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -129,9 +157,8 @@ I stumble one more time out of the final exam, the weight of textbooks finally o
         </children>
     </item>
     <item nodeId="node-1016">
-        <command xml:space="preserve">eat</command>
-        <result xml:space="preserve">(yourself)
-You're plainly inedible.
+        <command xml:space="preserve">follow</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -139,8 +166,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1017">
-        <command xml:space="preserve">say</command>
-        <result xml:space="preserve">I didn't understand that sentence.
+        <command xml:space="preserve">run</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -148,8 +175,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1018">
-        <command xml:space="preserve">cry</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">run north</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -157,8 +184,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1019">
-        <command xml:space="preserve">follow</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">Run toilet</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -166,8 +193,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1020">
-        <command xml:space="preserve">run</command>
-        <result xml:space="preserve">You'll have to say which compass direction to go in.
+        <command xml:space="preserve">toilet</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -175,8 +202,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1021">
-        <command xml:space="preserve">run north</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">Go to toilet</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -184,8 +211,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1022">
-        <command xml:space="preserve">Run toilet</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">Look</command>
+        <result xml:space="preserve">The exam room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -193,8 +220,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1023">
-        <command xml:space="preserve">toilet</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">Exit</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -202,8 +229,8 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1024">
-        <command xml:space="preserve">Go to toilet</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">Leave</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -211,33 +238,6 @@ You're plainly inedible.
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">Look</command>
-        <result xml:space="preserve">The exam room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1026"></child>
-        </children>
-    </item>
-    <item nodeId="node-1026">
-        <command xml:space="preserve">Exit</command>
-        <result xml:space="preserve">But you aren't in anything at the moment.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
-        </children>
-    </item>
-    <item nodeId="node-1027">
-        <command xml:space="preserve">Leave</command>
-        <result xml:space="preserve">But you aren't in anything at the moment.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
-        </children>
-    </item>
-    <item nodeId="node-1028">
         <command xml:space="preserve">Wait</command>
         <result xml:space="preserve">I wait for a moment, uncertain of what to say. 
  Jackson comes from behind me, friendly punches me in the shoulder and happily asks:
@@ -255,20 +255,20 @@ You're plainly inedible.
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1026"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1026">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">Please give one of the answers above.
 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1027"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1027">
         <command xml:space="preserve">Restart</command>
         <result xml:space="preserve">
 
@@ -282,7 +282,7 @@ The exam room is chaotic as students rush out, relieved that the ordeal is over.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1028">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Outside of the Exam Class
 A white canvas parasol raised up on stakes driven into the grass.
