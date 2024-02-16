@@ -1,0 +1,69 @@
+Debugging log of Inform 7
+Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/andre/Library/Inform -project /Users/andre/Desktop/Documents/Options/Fiction Interactive/ars_amatoria/Ars Amatoria v.1.inform -format=ulx
+Found language bundle 'German' (built in)
+Found language bundle 'Italian' (built in)
+Found language bundle 'English' (built in)
+Found language bundle 'French' (built in)
+Found language bundle 'Swedish' (built in)
+Found language bundle 'Spanish' (built in)
+Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
+720 declarations read (14183 words)
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 281 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
+I've also read Common Commands Sidebar by Alice Grove, which is 10368 words long.
+I've also read Flexible Windows by Jon Ingold, which is 6522 words long.
+I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
+I've also read Facing by Emily Short, which is 1622 words long.
+I've also read Introductions by Emily Short, which is 2750 words long.
+Author: dannii willis
+Title: alternative startup rules
+Problem PM_BogusExtension issued from inform7/Chapter 12/Read Source Text.w, line 143
+
+  >--> I can't find the extension 'Alternative Startup Rules by Dannii Willis',
+    which seems not to be installed, but was requested by: 'Include version
+    1/140516 of Alternative Startup Rules by Dannii Willis' (/Users/andre/Library/Inform/Extensions/jon
+    ingold/flexible windows.i7x, line 19). You can get hold of extensions
+    which people have made public at the Inform website, www.inform7.com, or by
+    using the Public Library in the Extensions panel.
+
+
+
+-----------------------------------------------------
+Phase III ... Compilation now complete
+-----------------------------------------------------
+
+Total of 3 files written as streams.
+CPU time: 20 centiseconds
+
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property creations   property provision 
+  property translations   relation definitions   rule attachments   rulebook compilation   spatial map   spatial map workings
+  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
+  time periods   variable creations   verifications    vocabulary  

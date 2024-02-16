@@ -9,13 +9,20 @@
 
 Ars Amatoria v.1
 An Interactive Fiction by André AnJoMorto F.
-Release 1 / Serial number 240203 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 1 / Serial number 240210 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
-The exam room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door.
+Exam Room
+I stumble one more time out of the final exam, the weight of textbooks finally off my shoulders. There she is, standing in the corridor, the girl I've barely spoken to all semester, if I can even say that now, but I can't get her out of my mind. She's laughing. My heart races; this is my chance, maybe my last chance, once again... one more time...
+
+ The room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the corridor.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1042"></child>
+            <child nodeId="node-1031"></child>
+            <child nodeId="node-1032"></child>
+            <child nodeId="node-1049"></child>
+            <child nodeId="node-1028"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1005"></child>
             <child nodeId="node-1003"></child>
@@ -284,8 +291,212 @@ The exam room is chaotic as students rush out, relieved that the ordeal is over.
     </item>
     <item nodeId="node-1028">
         <command xml:space="preserve">look</command>
-        <result xml:space="preserve">Outside of the Exam Class
-A white canvas parasol raised up on stakes driven into the grass.
+        <result xml:space="preserve">Exam Room
+ The room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the corridor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">I wait for a moment, uncertain of what to say. 
+
+ Jackson comes from behind me, friendly punches me in the shoulder and happily asks:
+ "So how was it?"
+
+ Still surprised I answer:
+ "It was alright."
+
+ As I look back at the corridor, the girl is not there anymore. I've lost my chance...
+
+
+
+    *** I got to be quicker, noted, time to go back. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Corridor
+You can see a Beautiful Girl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Toilet
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">examine exam room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+            <child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Exam Room
+I stumble one more time out of the final exam, the weight of textbooks finally off my shoulders. There she is, the girl I've barely spoken to all semester, if I can even say that now, but I can't get her out of my mind. She's laughing. My heart races; this is my chance, maybe my last chance, once again...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">see</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">I wait for a moment, uncertain of what to say. 
+ Jackson comes from behind me, friendly punches me in the shoulder and happily asks:
+ "So how was it?"
+ Still surprised I answer:
+ "It was alright."
+ As I look back at the corridor, the girl is not there anymore. I've lost my chance...
+
+
+
+    *** I got to be quicker, noted, time to go back. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">Quit</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">examine room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">Look</command>
+        <result xml:space="preserve">Exam Room
+The exam room is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">Go outside</command>
+        <result xml:space="preserve">
+Corridor
+The corridor is chaotic as students rush out, relieved that the ordeal is over. I catch glimpses of stressed faces and hear a mix of sighs and chatter. A sea of people flows towards the exit door. And there she still stands.
+
+You can see a Beautiful Girl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Front of the School
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Corridor
+You can see a Beautiful Girl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Exam Room
+I stumble one more time out of the final exam, the weight of textbooks finally off my shoulders. There she is, standing in the corridor, the girl I've barely spoken to all semester, if I can even say that now, but I can't get her out of my mind. She's laughing. My heart races; this is my chance, maybe my last chance, once again... one more time...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Corridor
+You can see a Beautiful Girl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">go toilet</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">go in the toilet</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
