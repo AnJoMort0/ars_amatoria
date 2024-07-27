@@ -1,12 +1,13 @@
 "Ars Amatoria v.1" by "André 'AnJoMorto' F."
 
 [EXTENSIONS]
-Include Common Commands Sidebar by Alice Grove.
-Include version 15/161003 of Flexible Windows by Jon Ingold.
+[Interesting but need to make it work, because versions issues]
+[Include Common Commands Sidebar by Alice Grove.
+Include Flexible Windows by Jon Ingold.
+Include Alternative Startup Rules by Dannii Willis.]
 Include Basic Screen Effects by Emily Short.
 Include Facing by Emily Short.
 Include Introductions by Emily Short.
-
 
 
 [Assertion verbs are be, have, carry, wear, contain, suport]
@@ -34,5 +35,9 @@ Instead of waiting:
 		Still surprised I answer:[line break]
 		'It was alright.'[paragraph break]
 		As I look back at the corridor, the girl is not there anymore. I've lost my chance...";
-    end the story finally saying "I got to be quicker, noted, time to go back.";
-
+    end the story saying "Let's go back.";
+    
+[After printing the banner text:
+	say "Press ANY KEY to restart.";
+	wait for any key;
+	follow the immediately restart the VM rule.]

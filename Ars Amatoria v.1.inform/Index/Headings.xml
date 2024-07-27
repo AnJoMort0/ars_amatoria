@@ -5,7 +5,7 @@
     <key>0</key><dict>
         <key>Filename</key><string>/Users/andre/Desktop/Documents/Options/Fiction Interactive/ars_amatoria/Ars Amatoria v.1.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>"Ars Amatoria v.1" by "André AnJoMorto F."</string>
+        <key>Title</key><string>"Ars Amatoria v.1" by "André 'AnJoMorto' F."</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
@@ -915,6 +915,83 @@
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/graham nelson/english language.i7x</string>
         <key>Line</key><integer>258</integer>
         <key>Title</key><string>Section 3 - Further pronouns</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>131</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 7/140425 of Basic Screen Effects by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>132</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>9</integer>
+        <key>Title</key><string>Section - Clearing the screen</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>133</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>22</integer>
+        <key>Title</key><string>Section - Waiting for key-presses, quitting suddenly</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>134</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>85</integer>
+        <key>Title</key><string>Section - Showing the current quotation</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>135</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>92</integer>
+        <key>Title</key><string>Section - Centering text on-screen</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>136</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>146</integer>
+        <key>Title</key><string>Section - Customizing the status line</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>137</key><dict>
+        <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
+        <key>Line</key><integer>212</integer>
+        <key>Title</key><string>Section - Color effects (for Z-machine only)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>138</key><dict>
+        <key>Filename</key><string>/Users/andre/Library/Inform/Extensions/emily short/facing.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 10 of Facing by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>139</key><dict>
+        <key>Filename</key><string>/Users/andre/Library/Inform/Extensions/emily short/introductions.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 2 of Introductions by Emily Short begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>140</key><dict>
+        <key>Filename</key><string>/Users/andre/Library/Inform/Extensions/emily short/introductions.i7x</string>
+        <key>Line</key><integer>5</integer>
+        <key>Title</key><string>Section 1 - Introductions for objects</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>141</key><dict>
+        <key>Filename</key><string>/Users/andre/Library/Inform/Extensions/emily short/introductions.i7x</string>
+        <key>Line</key><integer>60</integer>
+        <key>Title</key><string>Section 2 - Room Introductions</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>

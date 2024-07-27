@@ -7,7 +7,7 @@
         </identification>
         <bibliographic>
             <title>Ars Amatoria v.1</title>
-            <author>André AnJoMorto F.</author>
+            <author>André 'AnJoMorto' F.</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2024</firstpublished>
@@ -17,7 +17,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2024-02-10</releasedate>
+                    <releasedate>2024-06-05</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,10 +27,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2024-02-10</originated>
+            <originated>2024-06-05</originated>
         </colophon>
         <glulx>
-            <serial>240210</serial>
+            <serial>240605</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
         </glulx>

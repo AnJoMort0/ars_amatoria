@@ -22,7 +22,7 @@ placeholder [IFID] = "7A4B9097-E1AA-4F32-BF6E-3453C16B6BFB"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2024"
 placeholder [TITLE] = "Ars Amatoria v.1"
-placeholder [AUTHOR] = "André AnJoMorto F."
+placeholder [AUTHOR] = "André 'AnJoMorto' F."
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
